@@ -1,0 +1,39 @@
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  position: relative;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  top: 200px;
+  background-color: #1ff;
+  border: 1px solid black;
+  padding: 100px;
+  border-radius: 20px;
+}
+
+.container #btn{
+  padding: 15px;
+  border: none;
+  background-color: #9603ffe5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+@media (max-width: 2010px) {
+  .container{
+    position: relative;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    left: 550px;
+  }
+}
